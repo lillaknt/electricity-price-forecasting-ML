@@ -49,6 +49,7 @@ The goal of this project was to develop machine learning models tailored to the 
 This project was developed by:
 
 - **Lilla Kontra** 
-- **Veronika Lietavcova** 
+- **Veronika Lietavcova**
+  
 Supervised by academic advisors at VIA University College. 
 
