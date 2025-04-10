@@ -1,20 +1,55 @@
-# Bachelor Project
-This repositoray contains all the files and scripts used in the Bachelor Project: "Utilizing Machine Learning and Market Analysis for Predicting Energy Prices in Brazil.". 
+# Bachelor Project – Forecasting Electricity Prices in Brazil
+
+This repository contains all the files and scripts used in the Bachelor Project:
+
+> **“Utilizing Machine Learning and Market Analysis for Predicting Energy Prices in Brazil.”**
+
+Developed as part of the Global Business Engineering program at VIA University College.
+
+---
 
 ## Project Overview
-This project aims to create predictive models tailored to the Brazilian energy market, focusing on forecasting forward electricity prices. This involved:
 
+The goal of this project was to develop machine learning models tailored to the Brazilian energy market, focusing on **forecasting forward electricity prices**. We combined data-driven analysis with domain knowledge from a Danish energy trading company to support strategic decision-making in energy trading.
+
+### Key Steps:
 - Exploratory Data Analysis (EDA)
-- Data preprocessing (Data splitting, outliers, missing values, scaling)
+- Data preprocessing (splitting, handling outliers & missing values, scaling)
 - Feature selection and engineering
-- Selection of machine learning algorithms
-- Hyperparameter tuning of models
-- Validation and evaluation of model performance
+- Machine learning algorithm selection
+- Hyperparameter tuning
+- Validation and performance evaluation
 
-## Folders
-- Algorithm_Selection: Contains notebooks for evaluating and comparing different machine learning algorithms, including their performance metrics and hyperparameter tuning processes
-- EDA: Includes visualizations from the Exploratory Data Analysis phase. This section focuses on understanding the dataset, analyzing trends, correlations, and key features relevant to energy price prediction
-- ETL: Contains the code for Extract, Transform, and Load (ETL) processes, including data extraction from raw sources, cleaning, integration, and transformation into a format suitable for model training
-- ModelsInReport: Includes the final implementations of the models discussed in the report. This section features both LSTM and Gradient Boosted Models, along with their configurations and saved model files for reproducibility 
-- Pipeline: Contains the machine learning pipeline with preprocessing and feature engineering
-- xdrive: used for cloud data storage including larger datasets
+---
+
+## Repository Structure
+
+| Folder | Description |
+|--------|-------------|
+| `EDA/` | Contains Jupyter notebooks and visualizations from the Exploratory Data Analysis phase. Focused on identifying trends, correlations, and key predictive features. |
+| `ETL/` | Scripts for Extract, Transform, Load workflows. Includes raw data ingestion, cleaning, and preparation for modeling. |
+| `Algorithm_Selection/` | Includes evaluation of various machine learning algorithms, performance comparisons, and hyperparameter tuning results. |
+| `ModelsInReport/` | Final implementations of selected models (e.g. LSTM and Gradient Boosted Trees) as featured in the project report. Includes configurations and model artifacts. |
+| `Pipeline/` | Modular ML pipeline code for preprocessing, feature engineering, and training workflows. |
+| `xdrive/` | *(Removed in public repo)* This folder was originally used for dataset storage. It has been excluded to meet data privacy. |
+
+---
+
+## Tools & Technologies
+
+- **Languages:** Python
+- **Libraries:** `pandas`, `scikit-learn`, `XGBoost`, `TensorFlow/Keras`, `matplotlib`, `seaborn`
+- **Model Types:** Gradient Boosted Trees, LSTM (Recurrent Neural Network)
+- **Project Management:** Jupyter, Git, Trello (Agile workflows)
+
+---
+
+## Collaborators
+
+This project was developed in collaboration with:
+
+- **Lilla Kontra** – [LinkedIn](https://linkedin.com/in/lilla-kontra)  
+- **Veronika Lietavcova** – [LinkedIn](https://www.linkedin.com/in/veronika-lietavcova-3653561b7) 
+
+Supervised by academic advisors at VIA University College. 
+
