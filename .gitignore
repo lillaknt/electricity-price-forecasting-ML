@@ -1,0 +1,7 @@
+# Ignore secret or system files
+xdrive/
+*.env
+*.json
+*.log
+__pycache__/
+.DS_Store

@@ -1,0 +1,5 @@
+# Ignore all .csv files
+*.csv
+# Ignore all .xlsx files
+*.xlsx
+ETL/WeatherData.csv filter=lfs diff=lfs merge=lfs -text
