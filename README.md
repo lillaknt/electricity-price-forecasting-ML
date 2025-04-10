@@ -46,10 +46,9 @@ The goal of this project was to develop machine learning models tailored to the 
 
 ## Collaborators
 
-This project was developed in collaboration with:
+This project was developed by:
 
-- **Lilla Kontra** – [LinkedIn](https://linkedin.com/in/lilla-kontra)  
-- **Veronika Lietavcova** – [LinkedIn](https://www.linkedin.com/in/veronika-lietavcova-3653561b7) 
-
+- **Lilla Kontra** 
+- **Veronika Lietavcova** 
 Supervised by academic advisors at VIA University College. 
 
